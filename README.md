@@ -1,0 +1,2 @@
+# Analise-Metodologica-de-Ataques-Brute-Force-Estudo-de-Caso-com-Hydra-Kali-Linux-e-Metasploitable2
+Este repositório documenta um projeto prático de Hacking Ético focado na vulnerabilidade de Autenticação Quebrada (Broken Authentication), conforme delineado no OWASP Top 10. O objetivo primário é realizar uma Análise Metodológica Detalhada de um ataque de Força Bruta (Brute Force) contra formulários de login em uma aplicação web vulnerável.
