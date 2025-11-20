@@ -1,8 +1,8 @@
 # Análise Metodológica de Ataques Brute Force: Estudo de Caso com Hydra, Kali Linux e Metasploitable2
 
-## 📝 Descrição do Projeto
+## 📝 Descrição do Artigo Técnico/Científico
 
-Este repositório documenta um projeto prático de **Hacking Ético** focado na vulnerabilidade de **Autenticação Quebrada (Broken Authentication)**, conforme delineado no OWASP Top 10. O projeto foi desenvolvido com uma visão dupla: a de um atacante (Cibersegurança Junior) e a de um defensor (Engenharia de Software Segura).
+Este repositório documenta um artigo prático de **Hacking Ético** focado na vulnerabilidade de **Autenticação Quebrada (Broken Authentication)**, conforme delineado no OWASP Top 10. O artigo foi desenvolvido com uma visão dupla: a de um atacante (Cibersegurança Junior) e a de um defensor (Engenharia de Software Segura).
 
 O objetivo é realizar uma **Análise Metodológica Detalhada** de um ataque de **Força Bruta (Brute Force)** contra formulários de *login* em uma aplicação web vulnerável.
 
@@ -24,7 +24,7 @@ O objetivo é realizar uma **Análise Metodológica Detalhada** de um ataque de 
 
 ## 📁 Estrutura do Repositório
 
-O projeto está organizado em fases, seguindo a metodologia padrão de testes de intrusão:
+O artigo está organizado em fases, seguindo a metodologia padrão de testes de intrusão:
 
 * **`01-SETUP/`**: Documentação sobre a configuração do laboratório virtual (VMs, IPs, rede).
 * **`02-SCANNING/`**: Arquivos da fase de reconhecimento, incluindo resultados do Nmap e análise do formulário web alvo.
@@ -47,11 +47,11 @@ O projeto está organizado em fases, seguindo a metodologia padrão de testes de
 
 ### Licença (MIT)
 
-Este projeto está licenciado sob a **Licença MIT** (veja o arquivo `LICENSE` para detalhes). Você pode usar, copiar, modificar e distribuir este material, desde que o aviso de *copyright* seja mantido.
+Este artigo está licenciado sob a **Licença MIT** (veja o arquivo `LICENSE` para detalhes). Você pode usar, copiar, modificar e distribuir este material, desde que o aviso de *copyright* seja mantido.
 
 ### ⚠️ Aviso de Isenção de Responsabilidade (Disclaimer)
 
-**Este projeto possui finalidade estritamente acadêmica e educacional (Ethical Hacking).** O conteúdo e os códigos aqui apresentados são destinados **somente** para uso em ambientes de laboratório controlados e com permissão explícita (como o Metasploitable2).
+**Este artigo possui finalidade estritamente acadêmica e educacional (Ethical Hacking).** O conteúdo e os códigos aqui apresentados são destinados **somente** para uso em ambientes de laboratório controlados e com permissão explícita (como o Metasploitable2).
 
 **O autor não se responsabiliza por qualquer uso ilegal, não ético ou malicioso deste material fora de um contexto de teste de intrusão autorizado.** A utilização em sistemas, redes ou aplicações sem consentimento prévio é estritamente proibida e pode resultar em penalidades legais.
 
