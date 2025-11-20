@@ -1,15 +1,21 @@
-input > nmap -p- -sV 192.168.56.101
+<p><code>input ></code></p>
 
-Explicação dos parâmetros:
--p- : Instrui o Nmap a varrer todas as 65.535 portas TCP possíveis em vez de apenas as 1.000 mais comuns.
+```bash
+nmap -p- -sV 192.168.56.101
+```
+<strong>Explicação dos parâmetros:</strong>
+
+`-p-` : Instrui o Nmap a varrer todas as 65.535 portas TCP possíveis em vez de apenas as 1.000 mais comuns.
 Isso garante que serviços obscuros (como o Tomcat na porta 8180 ou serviços não-padrão) não sejam ignorados, fornecendo um inventário completo do alvo.
 
--sV : Pede ao Nmap para ir além da simples descoberta de portas.
+`-sV` : Pede ao Nmap para ir além da simples descoberta de portas.
 Depois de encontrar uma porta aberta, ele tenta determinar o serviço exato e o número da versão do software que está rodando nela (ex: Apache HTTPD 2.2.8 ou MySQL 5.0.51).
 Isso é crucial para o PenTest porque permite buscar vulnerabilidades (CVEs) conhecidas contra aquela versão específica.
 
 
-Output >
+<p><code>Output ></code></p>
+
+```bash
 
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-18 13:28 EST
 Nmap scan report for 192.168.56.101

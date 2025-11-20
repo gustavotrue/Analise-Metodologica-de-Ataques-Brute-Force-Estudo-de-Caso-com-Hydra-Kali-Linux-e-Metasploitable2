@@ -1,5 +1,0 @@
-Endereço IP:                          192.168.56.101
-Porta Alvo:                           80 (Identificada pelo Nmap)
-Serviço:                              HTTP (Apache httpd 2.2.8 ((Ubuntu) DAV/2))
-Aplicação Alvo:                       Damn Vulnerable Web Application (DVWA)
-URL Completa do Formulário:           http://192.168.56.101/dvwa/login.php
