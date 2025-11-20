@@ -29,6 +29,4 @@ A identificação da aplicação **DVWA** (Damn Vulnerable Web Application) foi 
 
 Para fins de um **Penetration Test** real e desconhecido, a confirmação do DVWA seria realizada através de técnicas de **Impressão Digital de Aplicação (Application Fingerprinting)** mais sofisticadas (como a análise de *headers*, *cookies* ou o uso de ferramentas como o **WhatWeb**).
 
-Neste projeto acadêmico, a confirmação rápida do DVWA permite que o foco seja mantido na análise dos parâmetros do formulário e na execução metodológica do **Ataque de Força Bruta**, seguido pela discussão aprofundada das **Contramedidas de Engenharia de Software**.
-
 ---
